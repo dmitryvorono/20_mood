@@ -2,11 +2,14 @@
 <html>
 <head>
   <title>Настроение</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/b-quote__btn-refresh.js"></script>
+  <meta charset="utf-8">
   <script id="quotes_json" type="application/json">
     [
       {
         "phrase": "Кукурузные хлопья - теперь без асбеста!",
-        "signature": "©Неизвестный маркетолог"
+        "signature": "Неизвестный маркетолог"
       },
       {
         "phrase": "Собираюсь жить вечно, пока всё идёт нормально"
@@ -20,6 +23,22 @@
     ]
   </script>
 </head>
-<body>
+<body onload="refresh_quote();">
+  <div class='b-page'>
+    <div class='b-quote b-quote_top-middle'>
+      <div class='b-quote__text'>
+      </div>
+      <div class='b-quote__author'>
+      </div>
+      <div class='b-quote__btn-refresh'>
+        <a onclick="refresh_quote();" href="#">Ещё цитату</a>
+      </div>
+    </div>
+    <div class='b-footer'>
+      <div class='b-footer__copyright'>
+        <a href='http://www.freepik.com/free-vector/abstract-background-with-a-watercolor-texture_886474.htm' target='_blank'>Вдохновляющий фон от Freepik</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
