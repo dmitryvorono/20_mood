@@ -10,8 +10,8 @@ function get_random_quote(quotes){
 
 
 function set_quote(quote){
-    var quote_text = document.getElementsByClassName('b-quote__text')[0];
-    var quote_author = document.getElementsByClassName('b-quote__author')[0];
+    var quote_text = document.getElementsByClassName('js-b-quote__text')[0];
+    var quote_author = document.getElementsByClassName('js-b-quote__author')[0];
     quote_text.innerHTML = '<p>' + quote.phrase + '</p>';
     if(quote.signature){
         quote_author.innerHTML = '<p>©' + quote.signature + '</p>';
