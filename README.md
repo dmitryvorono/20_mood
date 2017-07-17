@@ -1,7 +1,8 @@
 # Site for the Mood
 
 This site is intended to inspire. Every time you open on page show random inspiration quote.
-[Inspire](https://dmitryvorono.github.io/20_mood/)
+
+[Go to Inspire](https://dmitryvorono.github.io/20_mood/)
 
 # Project Goals
 
